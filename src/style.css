@@ -57,6 +57,10 @@ a:visited {
     display: flex;
 }
 
+#badges a {
+    line-height: 0px;
+}
+
 #badges img {
     margin: 4px;
 }
