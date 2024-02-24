@@ -50,3 +50,13 @@ a:visited {
     width: 70px;
     margin: 10px;
 }
+
+#badges {
+    border-top: solid 1px #b3b3b3;
+    justify-content: center;
+    display: flex;
+}
+
+#badges img {
+    margin: 4px;
+}
