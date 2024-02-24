@@ -33,3 +33,20 @@ a:link {
 a:visited {
     color: #3cff00;
 }
+
+.project {
+    display: flex;
+    background-color: #222528;
+    box-shadow: 0 0 5px 1px #00000034;
+    max-width: 800px;
+    min-height: 80px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.project-img {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
