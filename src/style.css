@@ -91,6 +91,7 @@ a:visited {
     line-height: 25px;
     background-color: #323540;
     text-align: center;
+    user-select: none;
 }
 
 #terminal-content {
