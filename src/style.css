@@ -48,7 +48,7 @@ a:visited {
     box-shadow: 0 0 5px 1px #00000034;
     min-height: 80px;
     padding: 5px;
-    margin: 15px;
+    margin-top: 15px;
     border-radius: 5px;
 }
 
@@ -66,7 +66,6 @@ a:visited {
     width: 325px;
     height: 175px;
     margin-left: auto;
-    margin-right: 15px;
     margin-top: 15px;
     background-color: #222526;
     border-radius: 6px 6px 0 0;
@@ -83,6 +82,7 @@ a:visited {
 
     #window {
         margin-left: 0;
+        width: 100%;
     }
 }
 
