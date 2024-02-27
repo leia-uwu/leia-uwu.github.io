@@ -17,8 +17,7 @@ body {
 }
 
 #header {
-    width: 100%;
-    text-align: center;
+    margin-bottom: 0px;
 }
 
 #content {
@@ -33,6 +32,7 @@ body {
         margin-right: 5%;
     }
 }
+
 
 a:link {
     color: #2a7cff;
@@ -56,6 +56,45 @@ a:visited {
     height: 70px;
     width: 70px;
     margin: 10px;
+}
+
+#info {
+    display: flex;
+}
+
+#window {
+    width: 325px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: #222526;
+    border-radius: 6px 6px 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px 10px #00000034;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+    #info {
+        display: block;
+    }
+
+    #window {
+        margin-left: 0;
+    }
+}
+
+#title-bar {
+    height: 25px;
+    line-height: 25px;
+    background-color: #323540;
+    text-align: center;
+}
+
+#terminal-content {
+    font-family: 'Fira Code', monospace;
+    margin: 4px;
 }
 
 #contact-list {
