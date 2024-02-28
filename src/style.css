@@ -35,7 +35,7 @@ body {
 
 
 a:link {
-    color: #2a7cff;
+    color: #13d4ff;
 }
 
 a:visited {
@@ -135,4 +135,6 @@ a:visited {
 
 #badges img {
     margin: 5px;
+    width: 88px;
+    height: 31px;
 }
